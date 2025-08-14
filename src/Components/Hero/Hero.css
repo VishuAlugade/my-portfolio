@@ -1,0 +1,123 @@
+/* Original hero section */
+.hero {
+    height: calc(100vh - 170px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 50px;
+}
+
+.hero h1 {
+    text-align: center;
+    width: 70%;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.hero h1 span {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero p {
+    width: 70%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 35px;
+    color: #d2d2d2;
+}
+
+.hero-action {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.hero-connect,
+.hero-resume {
+    padding: 20px 75px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.hero-connect {
+    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    color: rgb(0, 0, 0);
+}
+
+.hero-resume {
+    border: 2px solid #92FE9D;
+    color: rgb(255, 255, 255);
+    background: transparent;
+}
+
+.hero-connect:hover,
+.hero-resume:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    .hero h1 {
+        font-size: 48px;
+        width: 80%;
+    }
+    .hero p {
+        font-size: 20px;
+        width: 80%;
+    }
+    .hero-action {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        height: auto;
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+    .hero h1 {
+        font-size: 36px;
+        width: 100%;
+    }
+    .hero p {
+        font-size: 18px;
+        line-height: 28px;
+        width: 100%;
+    }
+    .hero-action {
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .hero-connect,
+    .hero-resume {
+        width: 100%;
+        text-align: center;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero{
+        height: 85vh;
+    }
+    .hero h1 {
+        font-size: 28px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .hero-action {
+        font-size: 16px;
+    }
+}
