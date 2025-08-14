@@ -109,7 +109,7 @@
     border: none;
     color: rgb(0, 0, 0);
     border-radius: 50px;
-    background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+    background: linear-gradient(90deg, #000000 0%, #2e302e 100%);
     font-size: 22px;
     padding: 20px 60px;
     margin-bottom: 50px;
@@ -173,8 +173,5 @@
     .contact-right input{
         width: 90%;
         height: 40px;
-    }
-    .contact-right label{
-        font-size: 18px;
     }
 }
