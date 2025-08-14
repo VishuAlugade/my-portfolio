@@ -82,7 +82,7 @@
     border: none;
     outline: none;
     width: 100%;
-    max-width: 550px;
+    min-width: 550px;
     height: 62px;
     padding-left: 20px;
     border-radius: 4px;
@@ -94,7 +94,7 @@
 
 .contact-right textarea {
     width: 100%;
-    max-width: 500px;
+    min-width: 400px;
     border: none;
     outline: none;
     padding: 25px;
@@ -169,9 +169,5 @@
     .contact-left p {
         font-size: 18px;
         line-height: 28px;
-    }
-    .contact-right input{
-        width: 90%;
-        height: 40px;
     }
 }
