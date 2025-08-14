@@ -53,7 +53,7 @@
 }
 
 .education-box:hover {
-    background: linear-gradient(90deg, #00c8ff2f 0%, #92fe9d21 100%);
+    background: linear-gradient(90deg, #00c8ff2f 0%, #92fe9d21 100%); 
 }
 
 .education-box h4 {

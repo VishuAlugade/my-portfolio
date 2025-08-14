@@ -50,6 +50,10 @@
     background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
     color: rgb(0, 0, 0);
 }
+.hero-connect a{
+    text-decoration: none;
+    color: black;
+}
 
 .hero-resume {
     border: 2px solid #92FE9D;
