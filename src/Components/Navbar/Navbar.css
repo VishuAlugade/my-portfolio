@@ -136,7 +136,7 @@
 
     .menu-icon {
         position: absolute;
-        right: -80px;
+        right: 20px;
         display: block; /* show menu icon */
         margin-left: auto; /* push to right */
         height: 15px;
