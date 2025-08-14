@@ -121,7 +121,7 @@
         align-items: center;
         text-align: center;
     }
-    .about-para {
+    .about-para p{
         font-size: 18px;
     }
     .skills-container{
