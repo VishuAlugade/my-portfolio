@@ -4,14 +4,15 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://VishuAlugade.github.io/my-portfolio",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist",
+  "update-live": "git add . && git commit -m \"update portfolio\" && git push origin main && npm run deploy"
+},
   "dependencies": {
     "react": "^19.1.1",
     "react-anchor-link-smooth-scroll": "^1.0.12",
