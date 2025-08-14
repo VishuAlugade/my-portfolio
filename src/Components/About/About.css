@@ -124,6 +124,9 @@
     .about-para {
         font-size: 18px;
     }
+    .skills-container{
+        width: 90vw;
+    }
 }
 
 @media (max-width: 480px) {
