@@ -39,20 +39,31 @@
     font-weight: 500;
 }
 
-.hero-connect,
-.hero-resume {
+
+.hero-resume, 
+.hero-connect {
+    display: inline-block;        
     padding: 20px 75px;
     border-radius: 50px;
     cursor: pointer;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Outfit, sans-serif;
+    box-sizing: border-box;
+    text-align: center;         
 }
 
 .hero-connect {
     background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
     color: rgb(0, 0, 0);
     border: none;
-    font-size: 24px;
-    font-weight: 600;
 }
+
+.hero-resume {
+    background: #f0f0f0; 
+    color: #000;
+}
+
 .hero-connect a{
     text-decoration: none;
     color: black;
@@ -102,20 +113,21 @@
     .hero-action {
         flex-direction: column;
         gap: 15px;
-        font-size: 18px;
         width: 100%;
     }
     .hero-connect,
     .hero-resume {
-        width: 80%;
+        min-width: 80%;
         text-align: center;
         padding: 15px;
+        font-size: 18px;
+        box-sizing: border-box;
     }
-}
 
 @media (max-width: 480px) {
     .hero{
         height: 70vh;
         width: 100%;
     }
+}
 }
